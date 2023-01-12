@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat/static/Montserrat-Bold.ttf);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 14px 78px;
+}
+
+nav {
+    margin-left: 200px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 38px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.4081px;
+    line-height: 21px;
+    color: #191819;
+}
+
+header button {
+    width: 165px;
+    height: 46px;
+    border-radius: 24px;
+    background: #fff;
+    border: 2px solid #8AC653;
+}
+
+.us {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "showcase fooding"
+    "who fooding";
+}
+
+.showcase {
+    background-image: url(./images/Vector\(1\).svg);
+    background-repeat: no-repeat;
+    background-position: 30% center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+    background-color: #fff;
+    height: 300px;
+}
+
+.showcase h1 { 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 96px;
+    color: #191819;
+}
+
+.showcase {
+    grid-area: showcase;
+}
+
+.fooding {
+    grid-area: fooding;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.who {
+    display: flex;
+    flex-direction: column;
+    grid-area: who;
+    padding: 70px 0 0 146px;
+    box-sizing: border-box;
+}
+
+.who h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36.4139px;
+    line-height: 39px;
+    color: #2ACC32;
+    margin-bottom: 24px;
+}
+
+.who p {
+    width: 562px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.5031px;
+    line-height: 32px;
+    color: #191819;
+}
+
+
+
+/* our section */
+
+.our {
+    /* padding: 50px 0 50px 150px; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 91px;
+}
+
+.our div {
+    width: 500px;
+}
+
+.about img {
+    margin-bottom: 16px;
+}
+
+.about h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36.4139px;
+    line-height: 39px;
+    color: #2ACC32;
+    margin-bottom: 24px;
+}
+
+.about p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.5031px;
+    line-height: 32px;
+    color: #191819;
+}
+
+
+footer {
+    padding: 0 170px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo2 {
+    width: 158px;
+}
+
+.logo2 img {
+    width: 100%;
+}
+
+.logo2 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.0427px;
+    line-height: 13px;
+
+    /* identical to box height, or 111% */
+    letter-spacing: -0.03em;
+
+    color: #191819;
+}
+
+.info_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+    width: 321px;
+}
+
+.info_1 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.7014px;
+    line-height: 27px;
+
+    /* or 144% */
+    letter-spacing: -0.03em;
+
+    color: #191819;
+}
+
+.info_1 span {
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.7014px;
+    line-height: 27px;
+
+    /* identical to box height, or 144% */
+    letter-spacing: -0.03em;
+
+    color: #191819;
+}
+
+.info_2 {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.info_2 p{
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.7014px;
+    line-height: 27px;
+
+    /* identical to box height, or 144% */
+    letter-spacing: -0.03em;
+    margin-bottom: 25px;
+}
+
+.info_2 p a {
+    color: #191819;
+    text-decoration: none;
+}
+
+.info_2 div {
+    display: flex;
+    gap: 5px;
+}
+
+.info_2 div a {
+    display: flex;
+    color:#2ACC32;
+}
+
+.about:hover {
+    background-color: #EEFFEF;
+}
+
+.exportation:hover {
+    background-color: #EEFFEF;
+}
+
+.Manufacturing:hover {
+    background-color: #EEFFEF;
+}
+
+.packaging:hover {
+    background-color: #EEFFEF;
+}

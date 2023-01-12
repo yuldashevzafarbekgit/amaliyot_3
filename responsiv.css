@@ -1,0 +1,159 @@
+@media only screen and (max-width:1400px) {
+      nav {
+        display: none;
+      }  
+
+      header button {
+        display: none;
+      }
+
+      .humburger img {
+        width: 40px;
+      }
+
+      .logo {
+        width: 150px;
+      }
+
+      .logo img {
+        width: 100%;
+      }
+
+      header {
+        height: 40%;
+      }
+
+      /* section us */
+      
+
+      .us {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .showcase {
+        margin-bottom: 50px;
+        height: 40%;
+        background-size: 250px;
+        background-position: 30% center;
+        background-image: url(./images/Vector\(1\).svg);
+      }
+
+      .showcase h1 {
+        font-size: 70px;
+      }
+
+      .fooding img {
+        width: 500px;
+      }
+
+      .who {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        align-items: center;
+      }
+
+      .who p {
+        width: 90%;
+      }
+
+      /* our section */
+
+      .our {
+        /* border: 1px solid red; */
+        /* padding: 120px; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .our div {
+        width:90%;
+        /* border: 1px solid blue; */
+      }
+
+      .about {
+        padding: 80px;
+        /* width: 40%; */
+        display: flex;
+        flex-direction: column;
+      }
+
+      .about img {
+        width: 150px;
+      }
+
+      .about p {
+        width: 100%;
+      }
+
+      footer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 60px;
+        padding: 50px 60px 60px 120px;
+      }
+
+      .logo2 img{
+        width: 100%;
+      }
+
+      .info_1 p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21.4338px;
+        line-height: 31px;
+
+        /* or 144% */
+        letter-spacing: -0.03em;
+
+        color: #000000;
+
+
+      }
+
+      .info_2 p {
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21.4338px;
+        line-height: 31px;
+
+        /* identical to box height, or 144% */
+        letter-spacing: -0.03em;
+
+        color: #000000;
+      }
+
+      .info_2 span {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19.6331px;
+        line-height: 22px;
+
+        /* identical to box height, or 111% */
+        letter-spacing: -0.03em;
+
+        color: #000000;
+      }
+}
+
+@media only screen and (min-width:1400px) {
+        .humburger {
+        display: none;
+    }
+
+    .showcase {
+      background-image: none;
+    }
+}
+
